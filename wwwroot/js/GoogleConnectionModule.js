@@ -13,13 +13,13 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstati
     
     // TODO: Replace the following with your app's Firebase project configuration
     const firebaseConfig = {
-        apiKey: "AIzaSyAL4Yl_10YN7BfsVfgYCnp8Sf4mT7LKLUs",
-    authDomain: "loginmvc-d6c97.firebaseapp.com",
-    projectId: "loginmvc-d6c97",
-    storageBucket: "loginmvc-d6c97.appspot.com",
-    messagingSenderId: "493044853796",
-    appId: "1:493044853796:web:52673050c7e442843b3cb1",
-    measurementId: "G-9L174D6948"
+        apiKey: "tus datos",
+        authDomain: "tus datos",
+        projectId: "tus datos",
+        storageBucket: "tus datos",
+        messagingSenderId: "tus datos",
+        appId: "tus datos",
+        measurementId: "tus datos"
     };
 
     // Initialize Firebase

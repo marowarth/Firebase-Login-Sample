@@ -31,8 +31,8 @@ namespace FirebaseLoginCustom.Controllers
         {
 
             FirebaseAuthConfig config = new FirebaseAuthConfig();
-            config.AuthDomain = "loginmvc-d6c97.firebaseapp.com";
-            config.ApiKey = "AIzaSyAL4Yl_10YN7BfsVfgYCnp8Sf4mT7LKLUs";
+            config.AuthDomain = "tus datos";
+            config.ApiKey = "tus datos";
             config.Providers = new FirebaseAuthProvider[]
                 {
                     new GoogleProvider().AddScopes("email"),
