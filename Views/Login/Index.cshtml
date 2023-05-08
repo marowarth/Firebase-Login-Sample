@@ -1,0 +1,29 @@
+﻿@model object
+
+@{
+    ViewData["Title"] = "Inicio de sesión";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (ViewBag.Error != null)
+{
+    <p class="text-danger">@ViewBag.Error</p>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+</form>
+<button type="submit" class="btn btn-primary" id="mi-boton">google login</button>
+
+<script type="module" src="~/js/googleconnectionmodule.js"></script>
+
+
